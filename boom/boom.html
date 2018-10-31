@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Uso del BOM</title>
+</head>
+
+<body>
+	<p id="prueba"></p>
+	<p id="prueba2"></p>
+	<p id="prueba3"></p>
+	<p id="ancho"></p>
+	<p id="alturadisponible"></p>
+	<p id="prueba6"></p>
+	<p id="prueba7"></p>
+	<p id="profundidadpixel"></p>
+	<button style="color: blue;">js location</button>
+	<p id="url"></p>
+	<p id="host"></p>
+	<p id ="ruta"></p>
+	<p id="protocolo"></p>
+
+	<p><b>Note: </b>Si el número de puerto es el predeterminado (80 para http y 443 para https), la mayoría de los navegadores mostrarán 0 o nada.</p>
+	<p id="puerto"></p>
+	<input type="button" value="cargar nuevo documento" onclick="newDoc()">
+	<br>
+
+	<button style="margin-top: 25px; color: blue;">js History</button>
+	<br>
+
+	<input style="margin-top: 6px;" type="button" value="Back" onclick="goBack()">
+	<br>
+
+	<input style="margin-top: 6px;" type="button" value="Forward" onclick="goForward()">
+	<br>
+
+
+	<button style="color: blue; margin-top: 2px; ">js navegador</button>
+	<p id="prueba8"></p>
+	<p id="navegador"></p>
+	<p id= "prueba10"></p>
+	<p id="nombre navegador"></p>
+	<p id="version"></p>
+	<p id="encabezado"></p>
+	<p id="sistema"></p>
+	<p id="lenguaje"></p>
+	<p id="online"></p>
+	<p id="habilitado"></p>
+	
+
+
+	<button style="color: blue; margin-top: 25px; ">js alerta</button>
+	<br>
+	<button style="margin-top: 15px;" onclick="ad()">abvertencia </button>
+	<button onclick="con()">confirma</button>
+	<button onclick="solicitud()">solicitar</button>
+	<button onclick="alert('hola\ncomo estas?')">salto</button>
+	<p id="confirmar"></p>
+	<p id="solicitar"></p>
+	<br>
+
+
+	<button style="color: blue; margin-top: 25px; ">js evento de tiempo</button>
+	<br>
+	<button style="margin-top: 10px;" onclick="setTimeout(tiempo, 20);">prueba de tiempo</button>
+	<br>
+	<button onclick="myVar = setTimeout(inicio, 3000)">INICIAR</button>
+
+	<button onclick="clearTimeout(myVar)">DETENER</button>
+	<br>
+	<p>En esta página inicia este reloj:</p>
+	<p id="reloj"></p>
+	<p id="stop"></p>
+	<button onclick="clearInterval(myVar)">parar reloj</button>
+
+	<script type="text/javascript" src="boom.js"></script>
+
+</html>
